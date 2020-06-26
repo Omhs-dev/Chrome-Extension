@@ -1,0 +1,19 @@
+{
+    "name": "Codeloccol",
+    "description":"Mes liens",
+    "version": "1.0.0",
+    "author": "Omhs",
+    "background": {
+        "scripts":["aure.js"],
+        "persistent": true
+    },
+    "icons":{
+        "512":"cropped.png"
+    },
+    "browser_action": {
+        "default_icon":"cropped.png",
+        "default_popup": "pop.html"
+    },
+    "permissions": ["webNavigation"],
+    "manifest_version":2
+}
